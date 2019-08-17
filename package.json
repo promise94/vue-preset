@@ -1,0 +1,23 @@
+{
+  "name": "vue-preset",
+  "version": "1.0.0",
+  "description": "vue项目模板",
+  "main": "prompts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "preset"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easternboys/vue-preset.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/easternboys/vue-preset/issues"
+  },
+  "homepage": "https://github.com/easternboys/vue-preset#readme"
+}
