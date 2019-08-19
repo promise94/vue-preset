@@ -1,9 +1,7 @@
-const path = require("path");
-
 module.exports = (api, options, rootOptions) => {
   // 复制并用 ejs 渲染 `./template` 内所有的文件
-  
-  api.render(path.resolve(__dirname, "./template"));
+
+  api.render("./template");
 
   // 修改 `package.json` 里的字段
   api.extendPackage({
@@ -20,7 +18,28 @@ module.exports = (api, options, rootOptions) => {
       "git-cz": "^2.0.0",
       "compression-webpack-plugin": "^2.0.0",
       "vconsole-webpack-plugin": "^1.4.2",
-      "postcss-px-to-viewport": "^1.1.0"
+      "postcss-px-to-viewport": "^1.1.0",
+      "@types/chai": "^4.1.0",
+      "@types/mocha": "^5.2.4",
+      "@vue/cli-plugin-babel": "^3.10.0",
+      "@vue/cli-plugin-e2e-nightwatch": "^3.10.0",
+      "@vue/cli-plugin-eslint": "^3.10.0",
+      "@vue/cli-plugin-pwa": "^3.10.0",
+      "@vue/cli-plugin-typescript": "^3.10.0",
+      "@vue/cli-plugin-unit-mocha": "^3.10.0",
+      "@vue/eslint-config-prettier": "^5.0.0",
+      "@vue/eslint-config-typescript": "^4.0.0",
+      "@vue/test-utils": "1.0.0-beta.29",
+      "babel-eslint": "^10.0.1",
+      chai: "^4.1.2",
+      eslint: "^5.16.0",
+      "eslint-plugin-prettier": "^3.1.0",
+      "eslint-plugin-vue": "^5.0.0",
+      "node-sass": "^4.9.0",
+      prettier: "^1.18.2",
+      "sass-loader": "^7.1.0",
+      typescript: "^3.4.3",
+      "vue-template-compiler": "^2.6.10"
     },
     scripts: {
       "serve:test": "vue-cli-service serve --mode test",

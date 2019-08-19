@@ -1,10 +1,9 @@
 {
-  "useTaobaoRegistry": true,
   "packageManager": "yarn",
   "useConfigFiles": true,
   "router": false,
   "vuex": false,
-  "typeScript": false,
+  "typescript": true,
   "cssPreprocessor": "node-sass",
   "plugins": {
     "@vue/cli-plugin-babel": {},

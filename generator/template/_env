@@ -1,5 +1,8 @@
 # 所有环境默认
 
+# 页面标题
+VUE_APP_TITLE=Vue_Project
+
 # 接口配置
 
 VUE_APP_BASEURL=/api/
