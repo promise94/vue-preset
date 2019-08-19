@@ -4,6 +4,7 @@
   "useConfigFiles": true,
   "router": false,
   "vuex": false,
+  "typeScript": false,
   "cssPreprocessor": "node-sass",
   "plugins": {
     "@vue/cli-plugin-babel": {},
