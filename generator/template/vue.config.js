@@ -1,7 +1,7 @@
-const ip = "http://192.168.5.41";
+const ip = "your serve ip";
 
 module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "question-core" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/" : "/",
   devServer: {
     proxy: {
       "/api": {

@@ -1,17 +1,31 @@
 {
   "packageManager": "yarn",
   "useConfigFiles": true,
-  "router": false,
-  "vuex": false,
+  "router": true,
+  "vuex": true,
   "typescript": true,
   "cssPreprocessor": "node-sass",
   "plugins": {
-    "@vue/cli-plugin-babel": {},
+    "@vue/cli-plugin-typescript": {
+      "classComponent": true,
+      "tslint": true,
+      "lintOn": true,
+      "useTsWithBabel": true
+    },
+    "@vue/cli-plugin-pwa": {},
+    "@vue/cli-plugin-babel": {
+      
+    },
     "@vue/cli-plugin-eslint": {
-      "config": "standard",
+      "config": "Prettier",
       "lintOn": ["save", "commit"]
     },
-    "@vue/cli-plugin-unit-jest": {}
+    "eslint-plugin-prettier": {},
+    "@vue/eslint-config-prettier": {
+      "prompts": false
+    },
+    "@vue/cli-plugin-unit-mocha": {},
+    "@vue/cli-plugin-e2e-nightwatch": {}
   },
   "configs": {
     "eslintConfig": {
