@@ -18,7 +18,9 @@ if (!commitRE.test(msg) && !mergeRE.test(msg)) {
         `fix(v-model): handle events on blur (close #28)`
       )}\n\n` +
       chalk.red(
-        `  请使用 ${chalk.cyan(`npm run commit`)} 命令生成Commit message.\n`
+        `  请使用 ${chalk.cyan(`npm run commit`)} 或 ${chalk.cyan(
+          `yarn commit`
+        )} 命令生成Commit message.\n`
       )
   );
   process.exit(1);

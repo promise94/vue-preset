@@ -24,7 +24,7 @@ module.exports = (api, options, rootOptions) => {
       }
     },
     gitHooks: {
-      "commit-msg": "node scripts/verifyCommitMsg.js"
+      "commit-msg": "node scripts/verifyCommitMsg.ts"
     }
   });
 };

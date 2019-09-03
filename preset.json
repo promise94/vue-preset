@@ -21,9 +21,12 @@
       "config": "Prettier",
       "lintOn": ["save", "commit"]
     },
-    "eslint-plugin-prettier": {},
+    "eslint-plugin-prettier": {
+      "version": "v3.1.0"
+    },
     "@vue/eslint-config-prettier": {
-      "prompts": false
+      "prompts": false,
+      "version": "v5.0.0"
     },
     "@vue/cli-plugin-unit-mocha": {},
     "@vue/cli-plugin-e2e-nightwatch": {}
