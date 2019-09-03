@@ -6,7 +6,9 @@
   "typescript": true,
   "cssPreprocessor": "node-sass",
   "plugins": {
-    "chalk": {},
+    "chalk": {
+      "version": "^2.4.2"
+    },
     "@vue/cli-plugin-typescript": {
       "classComponent": true,
       "tslint": true,
@@ -14,19 +16,17 @@
       "useTsWithBabel": true
     },
     "@vue/cli-plugin-pwa": {},
-    "@vue/cli-plugin-babel": {
-      
-    },
+    "@vue/cli-plugin-babel": {},
     "@vue/cli-plugin-eslint": {
       "config": "Prettier",
       "lintOn": ["save", "commit"]
     },
     "eslint-plugin-prettier": {
-      "version": "v3.1.0"
+      "version": "^3.1.0"
     },
     "@vue/eslint-config-prettier": {
       "prompts": false,
-      "version": "v5.0.0"
+      "version": "^5.0.0"
     },
     "@vue/cli-plugin-unit-mocha": {},
     "@vue/cli-plugin-e2e-nightwatch": {}

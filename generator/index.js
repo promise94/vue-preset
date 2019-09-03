@@ -16,7 +16,7 @@ module.exports = (api, options, rootOptions) => {
       "build:test": "vue-cli-service build --mode test",
       "build:pre": "vue-cli-service build --mode pre",
       "build:prod": "vue-cli-service build --mode prod",
-      commit: "git add . && npx git-cz"
+      commit: "npx git-cz"
     },
     config: {
       commitizen: {
