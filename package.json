@@ -1,6 +1,6 @@
 {
   "name": "vue-preset",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "vue项目模板",
   "main": "prompts.js",
   "scripts": {
