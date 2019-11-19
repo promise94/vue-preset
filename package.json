@@ -12,14 +12,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/easternboys/vue-preset.git"
+    "url": "git+https://github.com/promise94/vue-preset.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/easternboys/vue-preset/issues"
+    "url": "https://github.com/promise94/vue-preset/issues"
   },
-  "homepage": "https://github.com/easternboys/vue-preset#readme",
+  "homepage": "https://github.com/promise94/vue-preset#readme",
   "dependencies": {},
   "devDependencies": {
     "del": "^5.1.0"
